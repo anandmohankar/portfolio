@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Anand Mohankar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="portfolio_container">
+        <ul class="navlist">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="work.html">WORK</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="project.html">PROJECT</a></li>
+            <li><a href="services.html">SERVICES</a></li>
+            <li><a href="contact.html" class="active">CONTACT</a></li>
+        </ul>
+        <div id="contact" class="contact_section">
+            <div class="contact_info">
+                <h1>Contact Us</h1>
+                <p class="description">I'd love to hear from you! Whether you have questions, feedback, or just want to say hello, feel free to reach out using any of the methods below:<br>
+                <br>I'm available 24/7. Your message is important to me, and I'll do my best to get back to you as soon as possible.
+                <br></br>Looking forward to connecting with you!</p>
+                <div class="contact_details">
+                    <p><i class="fas fa-envelope"></i> Email: <a href="mailto:anandmohankar@gmail.com">anandmohankar@gmail.com</a></p>
+                    <p><i class="fas fa-phone"></i> Phone: <a href="tel:+8806170523">8806170523</a></p>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/anandmohankar" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/anandmohankar" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://twitter.com/anandmohankar" target="_blank"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="contact_form_wrapper">
+                <form class="contact-form" action="submit_form.php" method="post">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                    
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
